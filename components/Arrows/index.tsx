@@ -2,8 +2,13 @@ import { Link } from "@mui/material";
 import { BsArrowDown, BsArrowUp } from "react-icons/bs";
 import Information from "../../pages/info";
 import { StyledArrows } from "./styled";
+import { FC } from "react";
 
-export const Arrows = ({ idInfo }) => {
+type Props = {
+  idInfo: number;
+};
+
+export const Arrows: FC<Props> = ({ idInfo }) => {
   return idInfo == 0 ? (
     <StyledArrows>
       <div className="centered-arrow">
