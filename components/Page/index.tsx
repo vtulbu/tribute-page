@@ -1,4 +1,4 @@
-import Information from "../../pages/info";
+import Information from "../../lib/info";
 import { InfoContent } from "../InfoContent";
 import StyledPage from "./styled";
 

@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import Information from "../../pages/info";
+import Information from "../../lib/info";
 import * as Style from "./styled";
 import NavBar from "../NavBar";
 import { Arrows } from "../Arrows";

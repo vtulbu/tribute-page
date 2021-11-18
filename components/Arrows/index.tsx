@@ -1,6 +1,6 @@
 import { Link } from "@mui/material";
 import { BsArrowDown, BsArrowUp } from "react-icons/bs";
-import Information from "../../pages/info";
+import Information from "../../lib/info";
 import { StyledArrows } from "./styled";
 import { FC } from "react";
 

@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import Image from "next/dist/client/image";
 import { StyledImages } from "./styled";
-import Information from "../../../pages/info";
+import Information from "../../../lib/info";
 
 type Props = {
   id: number;

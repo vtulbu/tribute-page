@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Information from "../../../pages/info";
+import Information from "../../../lib/info";
 import { StyledParagraphe } from "./styled";
 
 type Props = {
