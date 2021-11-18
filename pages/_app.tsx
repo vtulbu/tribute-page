@@ -3,7 +3,7 @@ import { AppProps } from "next/app";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import theme from "../components/theme";
 import { EmotionCache } from "@emotion/cache";
-import createEmotionCache from "./createEmotionCache";
+import createEmotionCache from "../components/createEmotionCache";
 import { CacheProvider, Global, css } from "@emotion/react";
 
 // Client-side cache, shared for the whole session of the user in the browser.
